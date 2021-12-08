@@ -13,6 +13,8 @@ good
 if employee.isEligibleForFullBenefits()
 ```
 
+- - -
+
 ### 사용해야 할 경우의 주석
 
 1. 정보를 제공하는 주석
@@ -41,6 +43,8 @@ func testWithReallyBigFile() {
 let listItemContent = match.group(3).trim()
 // 여기서 teim은 정말 중요하다. trim 함수는 문자열에서 시작 공백을 제거한다.
 ```
+- - -
+
 ### 번외 xcode의 퀵헬프 사용하기
 - 퀵헬프는 함수나 변수위에 마크다운 형식으로 주석을 적으면 나중에 option + 클릭으로 문서화된 형식으로 설명을 볼 수 있게해주는 기능
 ```
